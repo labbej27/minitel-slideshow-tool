@@ -42,7 +42,7 @@ Interface graphique Tkinter permettant :
 
 ```sh
 git clone https://github.com/labbej27/minitel-slideshow-tool.git
-cd <repo>
+cd minitel-slideshow-tool
 ```
 
 ### 2. Installer les dépendances Python
