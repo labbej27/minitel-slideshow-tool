@@ -41,7 +41,7 @@ Interface graphique Tkinter permettant :
 ### 1. Cloner le dépôt
 
 ```sh
-git clone https://github.com/<user>/<repo>.git
+git clone https://github.com/labbej27/minitel-slideshow-tool.git
 cd <repo>
 ```
 
