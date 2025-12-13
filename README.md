@@ -98,7 +98,7 @@ ws://0.0.0.0:8765
 
 ---
 
-### Compilation en exécutable (standalone)
+# Compilation en exécutable (standalone)
 
 - L’outil peut être compilé en exécutable autonome (sans Python requis sur la machine cible) grâce à PyInstaller.
 
