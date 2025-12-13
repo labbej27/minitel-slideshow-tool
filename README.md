@@ -216,3 +216,7 @@ sudo usermod -a -G dialout $USER
 ```
 
 Puis redémarrer la session.
+
+#### Licence
+Projet libre – utilisation et modification autorisées.
+---
