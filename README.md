@@ -206,3 +206,13 @@ pyinstaller --onefile minitel_slideshow_tool.py
 ```
 
 - Lancer ensuite depuis un terminal pour lire les logs.
+
+#### Ports série – Permissions
+- Linux
+Ajouter l’utilisateur au groupe dialout :
+
+```bash
+sudo usermod -a -G dialout $USER
+```
+
+Puis redémarrer la session.
