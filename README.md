@@ -7,9 +7,10 @@ Interface graphique Tkinter permettant :
 - un **client WebSocket ↔ port série** (Minitel)
 - une liste de serveurs prédéfinis + saisie manuelle
 - un temps d’affichage paramétrable
+
 ## Démonstration
 
-![Capture d’écran]([https://github.com/labbej27/websocket-minitel/raw/master/Capture%20d%E2%80%99e%CC%81cran%202025-12-11%20a%CC%80%2023.17.08.png](https://github.com/labbej27/minitel-slideshow-tool/blob/main/capture.png))
+![Capture d’écran](https://github.com/labbej27/minitel-slideshow-tool/blob/main/capture.png)
 
 ---
 
