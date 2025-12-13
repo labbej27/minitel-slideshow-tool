@@ -68,8 +68,9 @@ Note : Tkinter est déjà inclus dans Python sur Windows et macOS, et sur la plu
 
 ## Utilisation
 ### 1. Lancer l’outil
+```sh
 python3 minitel_slideshow_tool.py
-
+```
 ### 2. Convertir des images
 - Choisir un dossier d’images
 
