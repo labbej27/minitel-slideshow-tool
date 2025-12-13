@@ -219,4 +219,18 @@ Puis redémarrer la session.
 
 #### Licence
 Projet libre – utilisation et modification autorisées.
+
+Ce projet a été développé à des fins personnelles et éducatives,
+en s’inspirant de projets existants de la communauté Minitel.
+
+## Crédits / Sources
+
+Ce projet s’appuie sur ou s’inspire des travaux suivants :
+
+- **websocket2minitel** par @cquest  
+  https://github.com/cquest/websocket2minitel
+  
+
+- Code et expérimentations de @NathaanTFM  
+  https://gist.github.com/NathaanTFM/2ca8687f1352b9d840d4f5efc941dd98
 ---
