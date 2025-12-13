@@ -7,7 +7,6 @@ Minitel Slideshow Tool
 - Client WebSocket ↔ port série (keepalive)
 - Choix de serveurs prédéfinis + saisie manuelle
 - Temps d'affichage paramétrable
-- Aperçu (hex dump) optionnel via log (preview binaire)
 """
 from pathlib import Path
 from io import BytesIO
