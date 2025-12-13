@@ -225,7 +225,7 @@ en s’inspirant de projets existants de la communauté Minitel.
 
 ## Crédits / Sources
 
-Ce projet s’appuie sur ou s’inspire des travaux suivants :
+Ce projet s’appuie sur et s’inspire des travaux suivants :
 
 - **websocket2minitel** par @cquest  
   https://github.com/cquest/websocket2minitel
