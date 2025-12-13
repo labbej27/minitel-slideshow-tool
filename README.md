@@ -7,7 +7,6 @@ Interface graphique Tkinter permettant :
 - un **client WebSocket ↔ port série** (Minitel)
 - une liste de serveurs prédéfinis + saisie manuelle
 - un temps d’affichage paramétrable
-- prévisualisation hex optionnelle
 
 ---
 
@@ -65,20 +64,20 @@ Installer les dépendances :
 pip install -r requirements.txt
 ```
 
-- Note : Tkinter est déjà inclus dans Python sur Windows et macOS, et sur la plupart des distributions Linux.
+Note : Tkinter est déjà inclus dans Python sur Windows et macOS, et sur la plupart des distributions Linux.
 
 ## Utilisation
 ### 1. Lancer l’outil
 python3 minitel_slideshow_tool.py
 
-## 2. Convertir des images
+### 2. Convertir des images
 - Choisir un dossier d’images
 
 - Choisir un dossier de sortie
 
 - Cliquer Convert Images
 
-## 3. Lancer un serveur Slideshow
+### 3. Lancer un serveur Slideshow
 - Mettre des .vdt dans le dossier sélectionné
 
 - Définir la durée par image
@@ -88,7 +87,7 @@ python3 minitel_slideshow_tool.py
 - Le serveur écoute par défaut sur :
 ws://0.0.0.0:8765
 
-## Se connecter à un serveur WebSocket via Minitel
+### 4. Se connecter à un serveur WebSocket via Minitel
 - Choisir un serveur prédéfini ou entrer une URL
 
 - Sélectionner le port série
@@ -100,7 +99,7 @@ ws://0.0.0.0:8765
 
 # Compilation en exécutable (standalone)
 
-- L’outil peut être compilé en exécutable autonome (sans Python requis sur la machine cible) grâce à PyInstaller.
+L’outil peut être compilé en exécutable autonome (sans Python requis sur la machine cible) grâce à PyInstaller.
 
 ## Prérequis
 
@@ -110,7 +109,7 @@ ws://0.0.0.0:8765
 
 ## Système :
 
-- Installer PyInstaller :
+Installer PyInstaller :
 
 ```sh
 pip install pyinstaller
@@ -118,7 +117,7 @@ pip install pyinstaller
 
 ## Compilation simple
 
-- Depuis la racine du projet :
+Depuis la racine du projet :
 
 ```sh
 pyinstaller --onefile --windowed minitel_slideshow_tool.py
@@ -132,9 +131,9 @@ pyinstaller --onefile --windowed minitel_slideshow_tool.py
 --windowed : supprime la console (recommandé pour Tkinter)
 ```
 
-- L’exécutable sera généré dans :
+L’exécutable sera généré dans :
 
-- dist/
+dist/
 
 ## Compilation Windows (recommandée)
 ```sh
@@ -147,7 +146,7 @@ pyinstaller ^
 
 ## Résultat :
 
- - dist/MinitelSlideshowTool.exe
+dist/MinitelSlideshowTool.exe
 
 ## Compilation Linux
 ```sh
@@ -158,9 +157,9 @@ pyinstaller \
   minitel_slideshow_tool.py
 ```
 
-## L’exécutable est spécifique à l’OS :
+### L’exécutable est spécifique à l’OS :
 
-- Un .exe Windows doit être compilé sous Windows, idem pour Linux/macOS.
+Un .exe Windows doit être compilé sous Windows, idem pour Linux/macOS.
 
 ## Compilation macOS
 ```sh
@@ -171,15 +170,15 @@ pyinstaller \
   minitel_slideshow_tool.py
 ```
 
-- Sur macOS :
+Sur macOS :
 
-- L’application peut être bloquée par Gatekeeper
+L’application peut être bloquée par Gatekeeper
 
-- Utiliser clic droit → Ouvrir au premier lancement
+Utiliser clic droit → Ouvrir au premier lancement
 
 ## Inclusion des dépendances
 
-- PyInstaller détecte automatiquement :
+PyInstaller détecte automatiquement :
 
 - tkinter
 
