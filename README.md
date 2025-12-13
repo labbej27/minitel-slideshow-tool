@@ -217,7 +217,7 @@ sudo usermod -a -G dialout $USER
 
 Puis redémarrer la session.
 
-#### Licence
+## Licence
 Projet libre – utilisation et modification autorisées.
 
 Ce projet a été développé à des fins personnelles et éducatives,
