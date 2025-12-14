@@ -222,10 +222,16 @@ sudo usermod -a -G dialout $USER
 Puis redémarrer la session.
 
 ## Licence
-Projet libre – utilisation et modification autorisées.
+
+Ce projet est libre d'utilisation, de modification et de redistribution
+à des fins non commerciales.
+
+Toute utilisation commerciale est interdite sans autorisation explicite
+de l'auteur.
 
 Ce projet a été développé à des fins personnelles et éducatives,
 en s’inspirant de projets existants de la communauté Minitel.
+
 
 ## Crédits / Sources
 
